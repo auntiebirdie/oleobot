@@ -19,8 +19,6 @@ module.exports = {
                 const items = response.data.collection.items;
                 const item = items[Math.floor(Math.random() * (items.length))];
 
-		    console.log(item);
-
                 const result = {
                     title: item.data[0].title,
                     description: item.data[0].description_508,
@@ -31,8 +29,6 @@ module.exports = {
                         text: `© ${item.data[0].secondary_creator}`
                     }
                 };
-
-		    console.log(result);
 
                 axios.patch(
                         `https://discord.com/api/v8/webhooks/${process.env.APPLICATION_ID}/${interaction.token}/messages/@original`, {

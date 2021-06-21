@@ -5,7 +5,7 @@ module.exports = {
     "interaction": (req, res) => {
 	            const helpers = require('../helpers')(req, res);
         try {
-            fs.readFile('data/backstroke.txt', function(err, data) {
+            fs.readFile('data/roddenberry.txt', function(err, data) {
                 if (err) throw err;
                 quotes = data.toString().split("\n");
                 quotes.pop();

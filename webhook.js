@@ -28,11 +28,11 @@ const commands = [{
     },
     {
         "name": "cats",
-        "description": "cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats"
+        "description": "cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats"
     },
     {
         "name": "dogs",
-        "description": "dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs"
+        "description": "dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs"
     },
     {
         "name": "birds",
@@ -42,16 +42,24 @@ const commands = [{
         "name": "backstroke",
         "description": "star wars the third gathers: backstroke of the west"
     },
-	{
-		"name" : "space",
-		"description" : "to boldly go where no man has gone before!",
-		"options" : [{
-			"name" : "keyword",
-			"description" : "what do you seek, star child?",
-			"type" : 3,
-			"required" : true
-		}]
-	}
+    {
+        "name": "space",
+        "description": "to boldly go where no man has gone before!",
+        "options": [{
+            "name": "keyword",
+            "description": "what do you seek, star child?",
+            "type": 3,
+            "required": true
+        }]
+    },
+    {
+        "name": "roddenberry",
+        "description": "Wisdom from the Father of Star Trek"
+    },
+    {
+        "name": "ronswanson",
+        "description": "Ron F*cking Swanson."
+    }
 ];
 
 const headers = {
